@@ -1,7 +1,7 @@
 package domain
 
 type Cart struct {
-	Items []ItemGroup
+	Items []Item
 }
 
 func (c Cart) GrandTotal() float64 {
